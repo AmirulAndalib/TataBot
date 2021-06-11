@@ -1,0 +1,11 @@
+---
+application:
+  name: "tatabot"
+  project: "ddd"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tatabot"
+  routes:
+  - application_name: "tatabot"
+    paths:
+    - "/*"
